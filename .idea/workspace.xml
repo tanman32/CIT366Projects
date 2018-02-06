@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8eb08d0c-38d1-46bc-a79c-b0d9715fdf65" name="Default" comment="1/25/2018 Trying to upload all of my homework" />
+    <list default="true" id="8eb08d0c-38d1-46bc-a79c-b0d9715fdf65" name="Default" comment="1/25/2018 Trying to upload all of my homework">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -287,7 +289,7 @@
       <workItem from="1516853138647" duration="584000" />
       <workItem from="1516853781987" duration="3688000" />
       <workItem from="1516898900462" duration="3195000" />
-      <workItem from="1516902869991" duration="152000" />
+      <workItem from="1516902869991" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="1/16/2018 intial commit of events ticketing">
       <created>1516123041361</created>
@@ -314,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39989000" />
+    <option name="totallyTimeSpent" value="40120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />

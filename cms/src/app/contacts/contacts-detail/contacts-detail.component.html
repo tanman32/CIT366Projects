@@ -1,10 +1,13 @@
 <div class="container-fluid">
   <div class="panel panel-default">
     <div class="panel-heading">
+      <h3>{{contact?.name}}</h3>
+        <img
+          [src]="contact?.imageUrl"
+          alt="{{contact?.name}}"
+          class="img-responsive"
+          style="max-height: 75px">
       <div class="text-right">
-        <br/>
-        <br/>
-        <br/>
         <button class="btn btn-primary" type="button">Clear</button>
         <button class="btn btn-danger" type="button">Delete</button>
       </div>
@@ -12,9 +15,9 @@
     <div class="panel-body">
       <div class="row">
         <div class="col-xs-12">
-              <label>Email:</label>
+              <label>Email:</label> <span>{{contact?.email}}</span>
               <br/>
-              <label>Phone:</label>
+              <label>Phone:</label> <span>{{contact?.phone}}</span><!--? checks for  nulls and undefined -->
         </div>
       </div>
     </div>
