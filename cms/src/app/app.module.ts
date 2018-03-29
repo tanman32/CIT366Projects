@@ -20,6 +20,10 @@ import { DropdownDirective } from './dropdown.directive';
 import {ContactService} from './contacts/contact.service';
 import {MessageService} from './messages/message.service';
 import {DocumentService} from './documents/document.service';
+import {AppRoutingModule} from './app-routing';
+import {HttpModule} from '@angular/http';
+import {FormsModule} from '@angular/forms';
+// import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -41,7 +45,10 @@ import {DocumentService} from './documents/document.service';
     DropdownDirective
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule, // NOt sure if this is needed
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [ContactService, DocumentService, MessageService],
   bootstrap: [AppComponent]
