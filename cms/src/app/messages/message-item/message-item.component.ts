@@ -1,7 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Message} from '../message.model'; // Not sure if I imported the right thing.
 import {ContactService} from '../../contacts/contact.service';
-import {MessagesService} from '../messages.service';
+import {MessageService} from '../message.service';
 import {Contact} from '../../contacts/contact.model';
 
 @Component({

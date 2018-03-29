@@ -18,8 +18,8 @@ import { MessageEditComponent } from './messages/message-edit/message-edit.compo
 import { MessageListComponent } from './messages/message-list/message-list.component';
 import { DropdownDirective } from './dropdown.directive';
 import {ContactService} from './contacts/contact.service';
-import {DocumentsService} from './documents/documents.service';
-import {MessagesService} from './messages/messages.service';
+import {MessageService} from './messages/message.service';
+import {DocumentService} from './documents/document.service';
 
 
 @NgModule({
@@ -43,7 +43,7 @@ import {MessagesService} from './messages/messages.service';
   imports: [
     BrowserModule
   ],
-  providers: [ContactService, DocumentsService, MessagesService],
+  providers: [ContactService, DocumentService, MessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
