@@ -13,6 +13,8 @@ export class DocumentService {
   getDocuments(): Document[] {
     return this.documents.slice();
   }
+
+  // I think this has to do with algorithm from Assignment 5
   getDocument(id: string): Document {
     return this.documents.filter((document: Document) => {
       return document.id === id;

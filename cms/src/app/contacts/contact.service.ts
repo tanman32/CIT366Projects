@@ -14,10 +14,10 @@ export class ContactService {
     return this.contacts.slice();
   }
 
-  // What does this code mean?
+  //
   getContact(id: string): Contact {
     return this.contacts.filter((contact: Contact) => {
       return contact.id === id;
-    })[0] || null;
+    })[0] || null; // Lets figure out what this part means again
   }
 }
