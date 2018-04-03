@@ -26,6 +26,7 @@ import {FormsModule} from '@angular/forms';
 import { DocumentViewComponent } from './documents/document-view/document-view.component';
 import { DocumentEditComponent } from './documents/document-edit/document-edit.component';
 import {WindRefService} from './wind-ref.service';
+import { ContactEditComponent } from './contacts/contact-edit/contact-edit.component';
 // import {FormsModule} from '@angular/forms';
 
 
@@ -47,7 +48,8 @@ import {WindRefService} from './wind-ref.service';
     MessageListComponent,
     DropdownDirective,
     DocumentViewComponent,
-    DocumentEditComponent
+    DocumentEditComponent,
+    ContactEditComponent
   ],
   imports: [
     BrowserModule,
