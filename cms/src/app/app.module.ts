@@ -20,9 +20,12 @@ import { DropdownDirective } from './dropdown.directive';
 import {ContactService} from './contacts/contact.service';
 import {MessageService} from './messages/message.service';
 import {DocumentService} from './documents/document.service';
-import {AppRoutingModule} from './app-routing';
+import {AppRoutingModule} from './app-routing.module';
 import {HttpModule} from '@angular/http';
 import {FormsModule} from '@angular/forms';
+import { DocumentViewComponent } from './documents/document-view/document-view.component';
+import { DocumentEditComponent } from './documents/document-edit/document-edit.component';
+import {WindRefService} from './wind-ref.service';
 // import {FormsModule} from '@angular/forms';
 
 
@@ -42,7 +45,9 @@ import {FormsModule} from '@angular/forms';
     MessageItemComponent,
     MessageEditComponent,
     MessageListComponent,
-    DropdownDirective
+    DropdownDirective,
+    DocumentViewComponent,
+    DocumentEditComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +55,7 @@ import {FormsModule} from '@angular/forms';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [ContactService, DocumentService, MessageService],
+  providers: [ContactService, DocumentService, MessageService, WindRefService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
